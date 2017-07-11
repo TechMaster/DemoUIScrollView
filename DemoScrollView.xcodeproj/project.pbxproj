@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A8B0FB1F14E347007E682D /* TapToZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8B0F91F14E347007E682D /* TapToZoom.swift */; };
+		E2A8B0FC1F14E347007E682D /* TapToZoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A8B0FA1F14E347007E682D /* TapToZoom.xib */; };
+		E2A8B0FE1F14E41F007E682D /* varus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A8B0FD1F14E41F007E682D /* varus.jpg */; };
 		E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C00F771F14C72300123A53 /* AppDelegate.swift */; };
 		E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F7E1F14C72300123A53 /* Assets.xcassets */; };
 		E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F801F14C72300123A53 /* LaunchScreen.storyboard */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2A8B0F91F14E347007E682D /* TapToZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapToZoom.swift; path = Basic/TapToZoom.swift; sourceTree = "<group>"; };
+		E2A8B0FA1F14E347007E682D /* TapToZoom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TapToZoom.xib; path = Basic/TapToZoom.xib; sourceTree = "<group>"; };
+		E2A8B0FD1F14E41F007E682D /* varus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = varus.jpg; sourceTree = "<group>"; };
 		E2C00F741F14C72300123A53 /* DemoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C00F771F14C72300123A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C00F7E1F14C72300123A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2A8B0F81F14E302007E682D /* Tap - Double tap to zoom */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8B0FD1F14E41F007E682D /* varus.jpg */,
+				E2A8B0F91F14E347007E682D /* TapToZoom.swift */,
+				E2A8B0FA1F14E347007E682D /* TapToZoom.xib */,
+			);
+			name = "Tap - Double tap to zoom";
+			sourceTree = "<group>";
+		};
 		E2C00F6B1F14C72300123A53 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +108,7 @@
 		E2C00F961F14C91D00123A53 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				E2A8B0F81F14E302007E682D /* Tap - Double tap to zoom */,
 				E2C00F9A1F14CB4300123A53 /* Zoom */,
 				E2C00F9F1F14DC9C00123A53 /* NestedScrollView */,
 			);
@@ -182,6 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A8B0FE1F14E41F007E682D /* varus.jpg in Resources */,
+				E2A8B0FC1F14E347007E682D /* TapToZoom.xib in Resources */,
 				E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */,
 				E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */,
 				E2C00F9E1F14CBC400123A53 /* ZoomVC.xib in Resources */,
@@ -200,6 +219,7 @@
 				E2C00F991F14CA2600123A53 /* ReadMe.md in Sources */,
 				E2C00F9D1F14CBC400123A53 /* ZoomVC.swift in Sources */,
 				E2C00F911F14C8D800123A53 /* BootLogic.swift in Sources */,
+				E2A8B0FB1F14E347007E682D /* TapToZoom.swift in Sources */,
 				E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */,
 				E2C00FA11F14DCBE00123A53 /* NestedScrollView.swift in Sources */,
 				E2C00F941F14C8D800123A53 /* Menu.swift in Sources */,
@@ -360,6 +380,7 @@
 				E2C00F881F14C72300123A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
