@@ -11,7 +11,7 @@ class BootLogic: NSObject {
     class func boot(_ window:UIWindow){
         let basic = MenuSection(section: "Basic", menus:[
             Menu(title: "Zoom", viewClass: "ZoomVC"),
-            Menu(title: "Pagination", viewClass: "Pagination"),
+            Menu(title: "Pagination", viewClass: "DisplaySerierPhoto"),
             Menu(title: "Tap - Double tap to zoom", viewClass: "TapToZoom"),
             Menu(title: "Nested Scroll view", viewClass: "NestedScrollView"),
             ])
