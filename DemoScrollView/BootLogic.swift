@@ -12,6 +12,8 @@ class BootLogic: NSObject {
         let basic = MenuSection(section: "Basic", menus:[
             Menu(title: "Zoom", viewClass: "ZoomVC"),
             Menu(title: "Pagination", viewClass: "Pagination"),
+            Menu(title: "Tap - Double tap to zoom", viewClass: "TapToZoom"),
+            Menu(title: "Nested Scroll view", viewClass: "NestedScrollView"),
             ])
 
         let inter = MenuSection(section: "Intermediate", menus:[

@@ -17,6 +17,7 @@
 		E2C00F991F14CA2600123A53 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = E2C00F981F14CA2600123A53 /* ReadMe.md */; };
 		E2C00F9D1F14CBC400123A53 /* ZoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C00F9B1F14CBC400123A53 /* ZoomVC.swift */; };
 		E2C00F9E1F14CBC400123A53 /* ZoomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F9C1F14CBC400123A53 /* ZoomVC.xib */; };
+		E2C00FA11F14DCBE00123A53 /* NestedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C00FA01F14DCBE00123A53 /* NestedScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E2C00F981F14CA2600123A53 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		E2C00F9B1F14CBC400123A53 /* ZoomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomVC.swift; path = Basic/Zoom/ZoomVC.swift; sourceTree = "<group>"; };
 		E2C00F9C1F14CBC400123A53 /* ZoomVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZoomVC.xib; path = Basic/Zoom/ZoomVC.xib; sourceTree = "<group>"; };
+		E2C00FA01F14DCBE00123A53 /* NestedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NestedScrollView.swift; path = Basic/NestedScrollView/NestedScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C00F9A1F14CB4300123A53 /* Zoom */,
+				E2C00F9F1F14DC9C00123A53 /* NestedScrollView */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -109,6 +112,14 @@
 				E2C00F9C1F14CBC400123A53 /* ZoomVC.xib */,
 			);
 			name = Zoom;
+			sourceTree = "<group>";
+		};
+		E2C00F9F1F14DC9C00123A53 /* NestedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E2C00FA01F14DCBE00123A53 /* NestedScrollView.swift */,
+			);
+			name = NestedScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 				E2C00F9D1F14CBC400123A53 /* ZoomVC.swift in Sources */,
 				E2C00F911F14C8D800123A53 /* BootLogic.swift in Sources */,
 				E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */,
+				E2C00FA11F14DCBE00123A53 /* NestedScrollView.swift in Sources */,
 				E2C00F941F14C8D800123A53 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
