@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F693FA1F14E18B0044715E /* miss2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 07F693F91F14E18B0044715E /* miss2.JPG */; };
 		E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C00F771F14C72300123A53 /* AppDelegate.swift */; };
 		E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F7E1F14C72300123A53 /* Assets.xcassets */; };
 		E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F801F14C72300123A53 /* LaunchScreen.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F693F91F14E18B0044715E /* miss2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miss2.JPG; sourceTree = "<group>"; };
 		E2C00F741F14C72300123A53 /* DemoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C00F771F14C72300123A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C00F7E1F14C72300123A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				E2C00F9B1F14CBC400123A53 /* ZoomVC.swift */,
 				E2C00F9C1F14CBC400123A53 /* ZoomVC.xib */,
+				07F693F91F14E18B0044715E /* miss2.JPG */,
 			);
 			name = Zoom;
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 				TargetAttributes = {
 					E2C00F731F14C72300123A53 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = H55CSPE9T9;
+						DevelopmentTeam = MJ777Q76VF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -184,6 +187,7 @@
 			files = (
 				E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */,
 				E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */,
+				07F693FA1F14E18B0044715E /* miss2.JPG in Resources */,
 				E2C00F9E1F14CBC400123A53 /* ZoomVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +323,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H55CSPE9T9;
+				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = DemoScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.DemoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,8 +337,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H55CSPE9T9;
+				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = DemoScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.DemoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +366,7 @@
 				E2C00F881F14C72300123A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
