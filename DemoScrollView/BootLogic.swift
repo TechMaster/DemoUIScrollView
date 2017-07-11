@@ -10,7 +10,7 @@ class BootLogic: NSObject {
     var menu : [MenuSection]!
     class func boot(_ window:UIWindow){
         let basic = MenuSection(section: "Basic", menus:[
-            Menu(title: "Zoom", viewClass: "ZoomImage"),
+            Menu(title: "Zoom", viewClass: "ZoomVC"),
             Menu(title: "Pagination", viewClass: "Pagination"),
             ])
 
