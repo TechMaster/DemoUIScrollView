@@ -17,7 +17,7 @@ class Nested: UIViewController, UIScrollViewDelegate {
     var frontScrollViews : [UIScrollView] = []
     
     var first = false
-    var test = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         pageImages = ["dog_1","dog_2","dog_3","dog_4","dog_5"]
