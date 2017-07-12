@@ -16,6 +16,9 @@
 		CBCA55231F14FE2600FBDF92 /* shop1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBCA551D1F14FE2600FBDF92 /* shop1-3.jpg */; };
 		CBCA55241F14FE2600FBDF92 /* shop1-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBCA551E1F14FE2600FBDF92 /* shop1-4.jpg */; };
 		CBCA55251F14FE2600FBDF92 /* shop1-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBCA551F1F14FE2600FBDF92 /* shop1-5.jpg */; };
+		E296C2581F16333100A53125 /* TapToZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C2561F16333100A53125 /* TapToZoom.swift */; };
+		E296C2591F16333100A53125 /* TapToZoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = E296C2571F16333100A53125 /* TapToZoom.xib */; };
+		E296C25B1F16339B00A53125 /* lb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E296C25A1F16339B00A53125 /* lb.jpg */; };
 		E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C00F771F14C72300123A53 /* AppDelegate.swift */; };
 		E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F7E1F14C72300123A53 /* Assets.xcassets */; };
 		E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C00F801F14C72300123A53 /* LaunchScreen.storyboard */; };
@@ -39,6 +42,9 @@
 		CBCA551D1F14FE2600FBDF92 /* shop1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-3.jpg"; sourceTree = "<group>"; };
 		CBCA551E1F14FE2600FBDF92 /* shop1-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-4.jpg"; sourceTree = "<group>"; };
 		CBCA551F1F14FE2600FBDF92 /* shop1-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-5.jpg"; sourceTree = "<group>"; };
+		E296C2561F16333100A53125 /* TapToZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapToZoom.swift; path = "Basic/Tap - Double tap to zoom/TapToZoom.swift"; sourceTree = "<group>"; };
+		E296C2571F16333100A53125 /* TapToZoom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TapToZoom.xib; path = "Basic/Tap - Double tap to zoom/TapToZoom.xib"; sourceTree = "<group>"; };
+		E296C25A1F16339B00A53125 /* lb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lb.jpg; sourceTree = "<group>"; };
 		E2C00F741F14C72300123A53 /* DemoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C00F771F14C72300123A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C00F7E1F14C72300123A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 				CBCA55171F14FD9000FBDF92 /* DisplaySerierPhoto.xib */,
 			);
 			name = DisplaySeriesOfPhoto;
+			sourceTree = "<group>";
+		};
+		E296C2551F1632BF00A53125 /* Tap - Double tap to zoom */ = {
+			isa = PBXGroup;
+			children = (
+				E296C25A1F16339B00A53125 /* lb.jpg */,
+				E296C2561F16333100A53125 /* TapToZoom.swift */,
+				E296C2571F16333100A53125 /* TapToZoom.xib */,
+			);
+			name = "Tap - Double tap to zoom";
 			sourceTree = "<group>";
 		};
 		E2C00F6B1F14C72300123A53 = {
@@ -125,6 +141,7 @@
 		E2C00F961F14C91D00123A53 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				E296C2551F1632BF00A53125 /* Tap - Double tap to zoom */,
 				CBCA55151F14FD6600FBDF92 /* DisplaySeriesOfPhoto */,
 				E2C00F9A1F14CB4300123A53 /* Zoom */,
 				E2C00F9F1F14DC9C00123A53 /* NestedScrollView */,
@@ -217,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E296C25B1F16339B00A53125 /* lb.jpg in Resources */,
 				CBCA55191F14FD9000FBDF92 /* DisplaySerierPhoto.xib in Resources */,
 				CBCA55231F14FE2600FBDF92 /* shop1-3.jpg in Resources */,
 				E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */,
@@ -228,6 +246,7 @@
 				07F693FA1F14E18B0044715E /* miss2.JPG in Resources */,
 				CBCA55201F14FE2600FBDF92 /* shop1-0.jpg in Resources */,
 				E2C00F9E1F14CBC400123A53 /* ZoomVC.xib in Resources */,
+				E296C2591F16333100A53125 /* TapToZoom.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +264,7 @@
 				E2C00F9D1F14CBC400123A53 /* ZoomVC.swift in Sources */,
 				E2C00F911F14C8D800123A53 /* BootLogic.swift in Sources */,
 				E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */,
+				E296C2581F16333100A53125 /* TapToZoom.swift in Sources */,
 				E2C00FA11F14DCBE00123A53 /* NestedScrollView.swift in Sources */,
 				E2C00F941F14C8D800123A53 /* Menu.swift in Sources */,
 			);
