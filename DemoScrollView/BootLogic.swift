@@ -13,7 +13,7 @@ class BootLogic: NSObject {
             Menu(title: "Zoom", viewClass: "ZoomVC"),
             Menu(title: "Pagination", viewClass: "DisplaySerierPhoto"),
             Menu(title: "Tap - Double tap to zoom", viewClass: "TapToZoom"),
-            Menu(title: "Nested Scroll view", viewClass: "NestedScrollView"),
+            Menu(title: "Nested Scroll view", viewClass: "Nested"),
             ])
 
         let inter = MenuSection(section: "Intermediate", menus:[
