@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E186721F20531800916F57 /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E186701F20531800916F57 /* InfiniteScrollView.swift */; };
+		07E186731F20531800916F57 /* InfiniteScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E186711F20531800916F57 /* InfiniteScrollView.xib */; };
+		07E186791F20545900916F57 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E186741F20545900916F57 /* 3.png */; };
+		07E1867A1F20545900916F57 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E186751F20545900916F57 /* 4.png */; };
+		07E1867B1F20545900916F57 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E186761F20545900916F57 /* 5.png */; };
+		07E1867C1F20545900916F57 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E186771F20545900916F57 /* 1.png */; };
+		07E1867D1F20545900916F57 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E186781F20545900916F57 /* 2.png */; };
+		07E186801F20548600916F57 /* scroll.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07E1867F1F20548600916F57 /* scroll.wav */; };
 		07F693FA1F14E18B0044715E /* miss2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 07F693F91F14E18B0044715E /* miss2.JPG */; };
 		CBCA55181F14FD9000FBDF92 /* DisplaySerierPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCA55161F14FD9000FBDF92 /* DisplaySerierPhoto.swift */; };
 		CBCA55191F14FD9000FBDF92 /* DisplaySerierPhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCA55171F14FD9000FBDF92 /* DisplaySerierPhoto.xib */; };
@@ -33,6 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07E186701F20531800916F57 /* InfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
+		07E186711F20531800916F57 /* InfiniteScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfiniteScrollView.xib; sourceTree = "<group>"; };
+		07E186741F20545900916F57 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		07E186751F20545900916F57 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		07E186761F20545900916F57 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		07E186771F20545900916F57 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		07E186781F20545900916F57 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		07E1867F1F20548600916F57 /* scroll.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scroll.wav; sourceTree = "<group>"; };
 		07F693F91F14E18B0044715E /* miss2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miss2.JPG; sourceTree = "<group>"; };
 		CBCA55161F14FD9000FBDF92 /* DisplaySerierPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplaySerierPhoto.swift; path = Basic/DisplaySerierPhoto.swift; sourceTree = "<group>"; };
 		CBCA55171F14FD9000FBDF92 /* DisplaySerierPhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DisplaySerierPhoto.xib; path = Basic/DisplaySerierPhoto.xib; sourceTree = "<group>"; };
@@ -71,6 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E1866F1F2052ED00916F57 /* Infinite Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				07E1867F1F20548600916F57 /* scroll.wav */,
+				07E186771F20545900916F57 /* 1.png */,
+				07E186781F20545900916F57 /* 2.png */,
+				07E186741F20545900916F57 /* 3.png */,
+				07E186751F20545900916F57 /* 4.png */,
+				07E186761F20545900916F57 /* 5.png */,
+				07E186701F20531800916F57 /* InfiniteScrollView.swift */,
+				07E186711F20531800916F57 /* InfiniteScrollView.xib */,
+			);
+			name = "Infinite Scrollview";
+			sourceTree = "<group>";
+		};
 		CBCA55151F14FD6600FBDF92 /* DisplaySeriesOfPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,9 +172,10 @@
 		E2C00F961F14C91D00123A53 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				E2C00F9A1F14CB4300123A53 /* Zoom */,
+				07E1866F1F2052ED00916F57 /* Infinite Scrollview */,
 				E296C2551F1632BF00A53125 /* Tap - Double tap to zoom */,
 				CBCA55151F14FD6600FBDF92 /* DisplaySeriesOfPhoto */,
-				E2C00F9A1F14CB4300123A53 /* Zoom */,
 				E2C00F9F1F14DC9C00123A53 /* NestedScrollView */,
 			);
 			name = Basic;
@@ -234,17 +266,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E186791F20545900916F57 /* 3.png in Resources */,
+				07E186801F20548600916F57 /* scroll.wav in Resources */,
 				E296C25B1F16339B00A53125 /* lb.jpg in Resources */,
 				CBCA55191F14FD9000FBDF92 /* DisplaySerierPhoto.xib in Resources */,
 				CBCA55231F14FE2600FBDF92 /* shop1-3.jpg in Resources */,
 				E2C00F821F14C72300123A53 /* LaunchScreen.storyboard in Resources */,
+				07E1867B1F20545900916F57 /* 5.png in Resources */,
 				E2C00F7F1F14C72300123A53 /* Assets.xcassets in Resources */,
 				CBCA55241F14FE2600FBDF92 /* shop1-4.jpg in Resources */,
 				CBCA55211F14FE2600FBDF92 /* shop1-1.jpg in Resources */,
+				07E1867C1F20545900916F57 /* 1.png in Resources */,
 				CBCA55221F14FE2600FBDF92 /* shop1-2.jpg in Resources */,
 				CBCA55251F14FE2600FBDF92 /* shop1-5.jpg in Resources */,
 				07F693FA1F14E18B0044715E /* miss2.JPG in Resources */,
 				CBCA55201F14FE2600FBDF92 /* shop1-0.jpg in Resources */,
+				07E1867A1F20545900916F57 /* 4.png in Resources */,
+				07E186731F20531800916F57 /* InfiniteScrollView.xib in Resources */,
+				07E1867D1F20545900916F57 /* 2.png in Resources */,
 				E2C00F9E1F14CBC400123A53 /* ZoomVC.xib in Resources */,
 				E296C2591F16333100A53125 /* TapToZoom.xib in Resources */,
 			);
@@ -266,6 +305,7 @@
 				E2C00F781F14C72300123A53 /* AppDelegate.swift in Sources */,
 				E296C2581F16333100A53125 /* TapToZoom.swift in Sources */,
 				E2C00FA11F14DCBE00123A53 /* NestedScrollView.swift in Sources */,
+				07E186721F20531800916F57 /* InfiniteScrollView.swift in Sources */,
 				E2C00F941F14C8D800123A53 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

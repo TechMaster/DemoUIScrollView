@@ -11,15 +11,16 @@ class BootLogic: NSObject {
     class func boot(_ window:UIWindow){
         let basic = MenuSection(section: "Basic", menus:[
             Menu(title: "Zoom", viewClass: "ZoomVC"),
+            Menu(title: "Infinite Scrollview", viewClass: "InfiniteScrollView"),
             Menu(title: "Pagination", viewClass: "DisplaySerierPhoto"),
             Menu(title: "Tap - Double tap to zoom", viewClass: "TapToZoom"),
             Menu(title: "Nested Scroll view", viewClass: "Nested"),
             ])
-
+        
         let inter = MenuSection(section: "Intermediate", menus:[
             ])
         
-        let advance = MenuSection(section: "Advance", menus:[           
+        let advance = MenuSection(section: "Advance", menus:[
             ])
         
         let mainScreen = MainScreen(style: UITableViewStyle.grouped)
@@ -30,7 +31,7 @@ class BootLogic: NSObject {
         let nav = UINavigationController(rootViewController: mainScreen)
         //nav.navigationBar.barStyle = UIBarStyle.BlackOpaque
         //nav.navigationBar.opaque = true
-        window.rootViewController = nav        
-      
-    }   
+        window.rootViewController = nav
+        
+    }
 }
