@@ -12,6 +12,8 @@ class BootLogic: NSObject {
         let basic = MenuSection(section: "Basic", menus:[
             Menu(title: "Zoom", viewClass: "ZoomVC"),
             Menu(title: "Infinite Scrollview", viewClass: "InfiniteScrollView"),
+            Menu(title: "Scrollview in Scrollview", viewClass: "SVinSV"),
+
             Menu(title: "Pagination", viewClass: "DisplaySerierPhoto"),
             Menu(title: "Tap - Double tap to zoom", viewClass: "TapToZoom"),
             Menu(title: "Nested Scroll view", viewClass: "Nested"),
